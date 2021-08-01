@@ -81,16 +81,29 @@ export default function ServiceSection() {
           </Grid>
         </Box>
         </Container>
-        <ModalVideo
+        
+       
+    </section>
+  );
+}
+
+// [TODO]
+// the code below just exist on </section>
+// but removed due to the CRX? window error 
+//
+/*
+ <ModalVideo
           channel="youtube"
           isOpen={videoOpen}
           videoId="nd-kva-FnXo"
           onClose={() => setVideoOpen(false)}
 
         />
-    </section>
-  );
-}
+
+*/
+
+//
+
 
 const playPluse = keyframes`
   from {
